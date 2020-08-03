@@ -1,0 +1,20 @@
+.Card_content {
+    padding: 1rem;
+}
+
+.Card_title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.Card_text {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}

@@ -1,0 +1,59 @@
+.ToolBar {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3c3b63;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    z-index: 90;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.2), 0 5px 15px 0 rgba(0,0,0,.08);
+}
+
+.ToolBar nav {
+    height: 100%;
+}
+
+.Title {
+    color: white;
+    font-weight: 700;
+}
+
+.SearchBar {
+    position: relative;
+    margin: 0 auto ;
+    margin-top: 10px;
+    text-align: center;
+}
+.SearchBar input {
+    color: white;
+    text-indent: 1rem;
+    font-family:  FontAwesome, sans-serif;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+    height: 41px;
+    border-radius: 14px;
+    border: none;
+    min-width: 15rem;
+}
+
+.SearchBar ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.42);
+    opacity: 1; /* Firefox */
+}
+
+.SearchBar :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.SearchBar ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.SearchBar input:focus, textarea:focus, select:focus{
+    outline: none;
+}
