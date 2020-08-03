@@ -8,8 +8,6 @@
 
 ## Installation
 
-This is a ReactJS application developed using  , make sure you it installed on your computer.
-
 This is a ReactJS application developed using [Create React App](https://github.com/facebook/create-react-app). To run the application, install the independencies first:
 
 ```sh
@@ -258,5 +256,10 @@ The News API doesn't have The New York Times available anymore. Therefore, when 
 
 ## Room for Improvements
 
+**React Hooks**
+
 Honestly speaking, I haven't written a single line of React for about two years, I'm most a Vue guy, as reflected [here](https://stackoverflow.com/users/story/5836921), and I haven't caught up to the frontend world as often as I used to, so I was only wielding the React knowledge that I still know to make this application happen. One improvement I'd like to make when I have time to using React hooks instead of Redux.
 
+**CI/CD**
+
+I mostly use Gitlab and their free CI service to test and deploy my application to Kubernetes. But since I'm hosting the code here on Github, I didn't do it.
